@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { supabase } from '../../lib/supabase'
+
 import { 
   Plus, 
   Upload, 
